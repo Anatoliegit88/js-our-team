@@ -96,14 +96,20 @@ const sixthMembersTeam = {
 /////////////////////////////
 // milestone 1
 const membersArray = [
-  "firstMembersTeam",
-  "secondMembersTeam",
-  "thirdMembersTeam",
-  "fourthMembersTeam",
-  "fifthMembersTeam",
-  "sixthMembersTeam",
+  firstMembersTeam,
+  secondMembersTeam,
+  thirdMembersTeam,
+  fourthMembersTeam,
+  fifthMembersTeam,
+  sixthMembersTeam,
 ];
-console.log(membersArray.name.lastname.role.foto);
+console.log(
+  membersArray[0].name,
+  membersArray[0].lastname,
+  membersArray[0].role,
+  membersArray[0].foto
+);
 
 // membersArray.firstMembersTeam.secondMembersTeam.thirdMembersTeam
 //   .fourthMembersTeam.fifthMembersTeam.sixthMembersTeam
+// .lastname.role.foto
