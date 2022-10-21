@@ -48,7 +48,7 @@ const membersTeamRole = [
   "Developer",
   "Graphic Designer",
 ];
-const membersTeamFoto = [
+const membersTeamPhoto = [
   "wayne-barnett-founder-ceo.jpg",
   "angela-caroll-chief-editor.jpg",
   "walter-gordon-office-manager.jpg",
@@ -56,60 +56,93 @@ const membersTeamFoto = [
   "scott-estrada-developer.jpg",
   "barbara-ramos-graphic-designer.jpg",
 ];
-const firstMembersTeam = {
-  name: "Wayne",
-  lastname: "Barnett",
-  role: "Founder & Ceo",
-  foto: "wayne-barnett-founder-ceo.jpg",
-};
-const secondMembersTeam = {
-  name: "Angela",
-  lastname: "Caroll",
-  role: "Chief Editor",
-  foto: "angela-caroll-chief-editor.jpg",
-};
-const thirdMembersTeam = {
-  name: "Walter",
-  lastname: "Gordon",
-  role: "Office Manager",
-  foto: "walter-gordon-office-manager.jpg",
-};
-const fourthMembersTeam = {
-  name: "Angela",
-  lastname: "Lopez",
-  role: "Social Media Manafer",
-  foto: "angela-lopez-social-media-manager.jpg",
-};
-const fifthMembersTeam = {
-  name: "Scott",
-  lastname: "Estrada",
-  role: "Developer",
-  foto: "scott-estrada-developer.jpg",
-};
-const sixthMembersTeam = {
-  name: "Barbara",
-  lastname: "Ramos",
-  role: "Graphic Desiner",
-  foto: "barbara-ramos-graphic-designer.jpg",
-};
-//////////////////////////////
-/////////////////////////////
-// milestone 1
+////////////////////////
+// milestone 1, stampare in console.log "prima variante"
+////////////////////////
 const membersArray = [
-  firstMembersTeam,
-  secondMembersTeam,
-  thirdMembersTeam,
-  fourthMembersTeam,
-  fifthMembersTeam,
-  sixthMembersTeam,
-];
-console.log(
-  membersArray[0].name,
-  membersArray[0].lastname,
-  membersArray[0].role,
-  membersArray[0].foto
-);
+  {
+    name: "Wayne",
+    lastname: "Barnett",
+    role: "Founder & Ceo",
+    photo: "wayne-barnett-founder-ceo.jpg",
+  },
 
-// membersArray.firstMembersTeam.secondMembersTeam.thirdMembersTeam
-//   .fourthMembersTeam.fifthMembersTeam.sixthMembersTeam
-// .lastname.role.foto
+  {
+    name: "Angela",
+    lastname: "Caroll",
+    role: "Chief Editor",
+    photo: "angela-caroll-chief-editor.jpg",
+  },
+  {
+    name: "Walter",
+    lastname: "Gordon",
+    role: "Office Manager",
+    photo: "walter-gordon-office-manager.jpg",
+  },
+  {
+    name: "Angela",
+    lastname: "Lopez",
+    role: "Social Media Manafer",
+    photo: "angela-lopez-social-media-manager.jpg",
+  },
+  {
+    name: "Scott",
+    lastname: "Estrada",
+    role: "Developer",
+    photo: "scott-estrada-developer.jpg",
+  },
+  {
+    name: "Barbara",
+    lastname: "Ramos",
+    role: "Graphic Desiner",
+    photo: "barbara-ramos-graphic-designer.jpg",
+  },
+];
+console.log(membersArray);
+/////////////////////////////
+// milestone 1 "seconda variante"
+////////////////////////////
+// const membersArray = [
+//   firstMembersTeam,
+//   secondMembersTeam,
+//   thirdMembersTeam,
+//   fourthMembersTeam,
+//   fifthMembersTeam,
+//   sixthMembersTeam,
+// ];
+// console.log(
+//   membersArray[0].name,
+//   membersArray[0].lastname,
+//   membersArray[0].role,
+//   membersArray[0].photo
+// );
+// console.log(
+//   membersArray[1].name,
+//   membersArray[1].lastname,
+//   membersArray[1].role,
+//   membersArray[1].photo
+// );
+// console.log(
+//   membersArray[2].name,
+//   membersArray[2].lastname,
+//   membersArray[2].role,
+//   membersArray[2].photo
+// );
+// console.log(
+//   membersArray[3].name,
+//   membersArray[3].lastname,
+//   membersArray[3].role,
+//   membersArray[3].photo
+// );
+// console.log(
+//   membersArray[4].name,
+//   membersArray[4].lastname,
+//   membersArray[4].role,
+//   membersArray[4].photo
+// );
+// console.log(
+//   membersArray[5].name,
+//   membersArray[5].lastname,
+//   membersArray[5].role,
+//   membersArray[5].photo
+// );
